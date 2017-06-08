@@ -3,6 +3,10 @@ class PagesController < ApplicationController
 end
 
 
-  def method
+  def welcome
     render :about
   end
+
+def about
+  render :about
+end

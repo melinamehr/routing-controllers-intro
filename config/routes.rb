@@ -14,4 +14,7 @@ get 'kittens/:size' => 'pages#kittens'
 
 get '/contest' => 'pages#contest'
 
+get '/secrets/:magic_word' => 'pages#secrets'
+
+
 end

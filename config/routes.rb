@@ -8,5 +8,6 @@ get '/' => 'pages#welcome'
 
 get '/about' => 'pages#about'
 
+get '/kitten/:size' => 'pages#kitten'
 
 end
